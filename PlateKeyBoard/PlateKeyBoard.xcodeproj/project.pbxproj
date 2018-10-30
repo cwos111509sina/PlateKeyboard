@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2313F5682187E780004084AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2313F5672187E780004084AC /* AppDelegate.m */; };
+		2313F56B2187E780004084AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2313F56A2187E780004084AC /* ViewController.m */; };
+		2313F5702187E78D004084AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2313F56F2187E78D004084AC /* Assets.xcassets */; };
+		2313F5762187E78D004084AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2313F5752187E78D004084AC /* main.m */; };
+		2313F5802187E78E004084AC /* PlateKeyBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2313F57F2187E78E004084AC /* PlateKeyBoardTests.m */; };
+		2313F58B2187E78E004084AC /* PlateKeyBoardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2313F58A2187E78E004084AC /* PlateKeyBoardUITests.m */; };
+		2313F59A2187E7CD004084AC /* PlateInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2313F5992187E7CD004084AC /* PlateInputView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2313F57C2187E78E004084AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2313F55B2187E780004084AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2313F5622187E780004084AC;
+			remoteInfo = PlateKeyBoard;
+		};
+		2313F5872187E78E004084AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2313F55B2187E780004084AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2313F5622187E780004084AC;
+			remoteInfo = PlateKeyBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2313F5632187E780004084AC /* PlateKeyBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlateKeyBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2313F5662187E780004084AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2313F5672187E780004084AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2313F5692187E780004084AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2313F56A2187E780004084AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2313F56F2187E78D004084AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2313F5742187E78D004084AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2313F5752187E78D004084AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2313F57B2187E78E004084AC /* PlateKeyBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlateKeyBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2313F57F2187E78E004084AC /* PlateKeyBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlateKeyBoardTests.m; sourceTree = "<group>"; };
+		2313F5812187E78E004084AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2313F5862187E78E004084AC /* PlateKeyBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlateKeyBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2313F58A2187E78E004084AC /* PlateKeyBoardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlateKeyBoardUITests.m; sourceTree = "<group>"; };
+		2313F58C2187E78E004084AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2313F5982187E7CD004084AC /* PlateInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlateInputView.h; sourceTree = "<group>"; };
+		2313F5992187E7CD004084AC /* PlateInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlateInputView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2313F5602187E780004084AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2313F5782187E78E004084AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2313F5832187E78E004084AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2313F55A2187E780004084AC = {
+			isa = PBXGroup;
+			children = (
+				2313F5652187E780004084AC /* PlateKeyBoard */,
+				2313F57E2187E78E004084AC /* PlateKeyBoardTests */,
+				2313F5892187E78E004084AC /* PlateKeyBoardUITests */,
+				2313F5642187E780004084AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2313F5642187E780004084AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2313F5632187E780004084AC /* PlateKeyBoard.app */,
+				2313F57B2187E78E004084AC /* PlateKeyBoardTests.xctest */,
+				2313F5862187E78E004084AC /* PlateKeyBoardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2313F5652187E780004084AC /* PlateKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				2313F5662187E780004084AC /* AppDelegate.h */,
+				2313F5672187E780004084AC /* AppDelegate.m */,
+				2313F5692187E780004084AC /* ViewController.h */,
+				2313F56A2187E780004084AC /* ViewController.m */,
+				2313F5982187E7CD004084AC /* PlateInputView.h */,
+				2313F5992187E7CD004084AC /* PlateInputView.m */,
+				2313F56F2187E78D004084AC /* Assets.xcassets */,
+				2313F5742187E78D004084AC /* Info.plist */,
+				2313F5752187E78D004084AC /* main.m */,
+			);
+			path = PlateKeyBoard;
+			sourceTree = "<group>";
+		};
+		2313F57E2187E78E004084AC /* PlateKeyBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				2313F57F2187E78E004084AC /* PlateKeyBoardTests.m */,
+				2313F5812187E78E004084AC /* Info.plist */,
+			);
+			path = PlateKeyBoardTests;
+			sourceTree = "<group>";
+		};
+		2313F5892187E78E004084AC /* PlateKeyBoardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2313F58A2187E78E004084AC /* PlateKeyBoardUITests.m */,
+				2313F58C2187E78E004084AC /* Info.plist */,
+			);
+			path = PlateKeyBoardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2313F5622187E780004084AC /* PlateKeyBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2313F58F2187E78E004084AC /* Build configuration list for PBXNativeTarget "PlateKeyBoard" */;
+			buildPhases = (
+				2313F55F2187E780004084AC /* Sources */,
+				2313F5602187E780004084AC /* Frameworks */,
+				2313F5612187E780004084AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlateKeyBoard;
+			productName = PlateKeyBoard;
+			productReference = 2313F5632187E780004084AC /* PlateKeyBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2313F57A2187E78E004084AC /* PlateKeyBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2313F5922187E78E004084AC /* Build configuration list for PBXNativeTarget "PlateKeyBoardTests" */;
+			buildPhases = (
+				2313F5772187E78E004084AC /* Sources */,
+				2313F5782187E78E004084AC /* Frameworks */,
+				2313F5792187E78E004084AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2313F57D2187E78E004084AC /* PBXTargetDependency */,
+			);
+			name = PlateKeyBoardTests;
+			productName = PlateKeyBoardTests;
+			productReference = 2313F57B2187E78E004084AC /* PlateKeyBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2313F5852187E78E004084AC /* PlateKeyBoardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2313F5952187E78E004084AC /* Build configuration list for PBXNativeTarget "PlateKeyBoardUITests" */;
+			buildPhases = (
+				2313F5822187E78E004084AC /* Sources */,
+				2313F5832187E78E004084AC /* Frameworks */,
+				2313F5842187E78E004084AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2313F5882187E78E004084AC /* PBXTargetDependency */,
+			);
+			name = PlateKeyBoardUITests;
+			productName = PlateKeyBoardUITests;
+			productReference = 2313F5862187E78E004084AC /* PlateKeyBoardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2313F55B2187E780004084AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = test;
+				TargetAttributes = {
+					2313F5622187E780004084AC = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					2313F57A2187E78E004084AC = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 2313F5622187E780004084AC;
+					};
+					2313F5852187E78E004084AC = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 2313F5622187E780004084AC;
+					};
+				};
+			};
+			buildConfigurationList = 2313F55E2187E780004084AC /* Build configuration list for PBXProject "PlateKeyBoard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2313F55A2187E780004084AC;
+			productRefGroup = 2313F5642187E780004084AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2313F5622187E780004084AC /* PlateKeyBoard */,
+				2313F57A2187E78E004084AC /* PlateKeyBoardTests */,
+				2313F5852187E78E004084AC /* PlateKeyBoardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2313F5612187E780004084AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2313F5702187E78D004084AC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2313F5792187E78E004084AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2313F5842187E78E004084AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2313F55F2187E780004084AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2313F59A2187E7CD004084AC /* PlateInputView.m in Sources */,
+				2313F56B2187E780004084AC /* ViewController.m in Sources */,
+				2313F5762187E78D004084AC /* main.m in Sources */,
+				2313F5682187E780004084AC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2313F5772187E78E004084AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2313F5802187E78E004084AC /* PlateKeyBoardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2313F5822187E78E004084AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2313F58B2187E78E004084AC /* PlateKeyBoardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2313F57D2187E78E004084AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2313F5622187E780004084AC /* PlateKeyBoard */;
+			targetProxy = 2313F57C2187E78E004084AC /* PBXContainerItemProxy */;
+		};
+		2313F5882187E78E004084AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2313F5622187E780004084AC /* PlateKeyBoard */;
+			targetProxy = 2313F5872187E78E004084AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2313F58D2187E78E004084AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2313F58E2187E78E004084AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2313F5902187E78E004084AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlateKeyBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.PlateKeyBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2313F5912187E78E004084AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlateKeyBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.PlateKeyBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2313F5932187E78E004084AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlateKeyBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.PlateKeyBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlateKeyBoard.app/PlateKeyBoard";
+			};
+			name = Debug;
+		};
+		2313F5942187E78E004084AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlateKeyBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.PlateKeyBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlateKeyBoard.app/PlateKeyBoard";
+			};
+			name = Release;
+		};
+		2313F5962187E78E004084AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlateKeyBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.PlateKeyBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlateKeyBoard;
+			};
+			name = Debug;
+		};
+		2313F5972187E78E004084AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlateKeyBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.PlateKeyBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlateKeyBoard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2313F55E2187E780004084AC /* Build configuration list for PBXProject "PlateKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2313F58D2187E78E004084AC /* Debug */,
+				2313F58E2187E78E004084AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2313F58F2187E78E004084AC /* Build configuration list for PBXNativeTarget "PlateKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2313F5902187E78E004084AC /* Debug */,
+				2313F5912187E78E004084AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2313F5922187E78E004084AC /* Build configuration list for PBXNativeTarget "PlateKeyBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2313F5932187E78E004084AC /* Debug */,
+				2313F5942187E78E004084AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2313F5952187E78E004084AC /* Build configuration list for PBXNativeTarget "PlateKeyBoardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2313F5962187E78E004084AC /* Debug */,
+				2313F5972187E78E004084AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2313F55B2187E780004084AC /* Project object */;
+}
